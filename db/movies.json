@@ -1,0 +1,26 @@
+{"movies": [
+
+{
+  "title": "Test Title",
+  "director": "test director",
+  "year": "2017",
+  "rating": "Excellent",
+  "poster": "Movie Poster"
+},
+
+{
+  "title": "Another Test Title",
+  "director": "Another test director",
+  "year": "2018",
+  "rating": "Decent",
+  "poster": "Another Movie Poster"
+},
+
+{
+  "title": "One More Test Title",
+  "director": "One More test director",
+  "year": "2019",
+  "rating": "Just Okay",
+  "poster": "Just One More Movie Poster"
+}
+]}
