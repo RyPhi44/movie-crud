@@ -5,7 +5,8 @@
   "director": "test director",
   "year": "2017",
   "rating": "Excellent",
-  "poster": "Movie Poster"
+  "poster": "Movie Poster",
+  "id": 1
 },
 
 {
@@ -13,7 +14,8 @@
   "director": "Another test director",
   "year": "2018",
   "rating": "Decent",
-  "poster": "Another Movie Poster"
+  "poster": "Another Movie Poster",
+  "id": 2
 },
 
 {
@@ -21,6 +23,7 @@
   "director": "One More test director",
   "year": "2019",
   "rating": "Just Okay",
-  "poster": "Just One More Movie Poster"
+  "poster": "Just One More Movie Poster",
+  "id": 3
 }
 ]}
