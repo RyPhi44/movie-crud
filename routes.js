@@ -67,5 +67,17 @@ router.get('/movies/:id', (req ,res) => {
 //
 // ^^^^^^^^^^Delete Movie^^^^^^^^^^
 
+router.delete('/movies/:id', (req, res) => {
+  const movieID = parseInt(req.params.id)
+  const singleMovie = db.get('movies').remove({id: movieID})
+  .write()
+  .then(result => {
+    res.status(204).send(result)
+  })
+  .catch(error => {
+    console.log(error);
+  })
+})
+
 
 module.exports = router

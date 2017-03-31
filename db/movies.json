@@ -1,29 +1,44 @@
-{"movies": [
-
 {
-  "title": "Test Title",
-  "director": "test director",
-  "year": "2017",
-  "rating": "Excellent",
-  "poster": "Movie Poster",
-  "id": 1
-},
-
-{
-  "title": "Another Test Title",
-  "director": "Another test director",
-  "year": "2018",
-  "rating": "Decent",
-  "poster": "Another Movie Poster",
-  "id": 2
-},
-
-{
-  "title": "One More Test Title",
-  "director": "One More test director",
-  "year": "2019",
-  "rating": "Just Okay",
-  "poster": "Just One More Movie Poster",
-  "id": 3
+  "movies": [
+    {
+      "Title": "Independence Day",
+      "Director": "Roland Emmerich",
+      "Year": "1996",
+      "Rating": "6.9",
+      "URL": "http://www.imdb.com/title/tt0116629/mediaviewer/rm2203522816",
+      "id": 1
+    },
+    {
+      "Title": "Star Wars: Episode IV - A New Hope",
+      "Director": "George Lucas",
+      "Year": "1977",
+      "Rating": "8.7",
+      "URL": "http://www.imdb.com/title/tt0076759/?ref_=nv_sr_1",
+      "id": 2
+    },
+    {
+      "Title": "300",
+      "Director": "Zack Snyder",
+      "Year": "2006",
+      "Rating": "7.7",
+      "URL": "http://www.imdb.com/title/tt0416449/mediaviewer/rm1056741632",
+      "id": 3
+    },
+    {
+      "Title": "Braveheart",
+      "Director": "Mel Gibson",
+      "Year": "1995",
+      "Rating": "8.4",
+      "URL": "http://www.imdb.com/title/tt0112573/mediaviewer/rm2372799488",
+      "id": 4
+    },
+    {
+      "Title": "Saving Private Ryan",
+      "Director": "Steven Spielberg",
+      "Year": "1998",
+      "Rating": "8.6",
+      "URL": "http://www.imdb.com/title/tt0120815/mediaviewer/rm1924732160",
+      "id": 5
+    }
+  ]
 }
-]}

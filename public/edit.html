@@ -14,19 +14,46 @@
       <!-- Latest compiled and minified JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="./assets/styles/stylesheet.css" type="text/css">
-      <script src="./assets/scripts/titles.js"></script>
+      <script src="./assets/scripts/edit.js"></script>
   </head>
   <body>
     <header>
       <h1>Ryan's Movie Ratings</h1>
     </header>
-      <table class= "movieTable">
-        <tr>
-          <th>Title</th>
-          <th>Director</th>
-          <th>Year</th>
-          <th>Rating</th>
-        </tr>
-    </table>
+    <main class="editMovie">
+      <div class="moviePreview"></div>
+        <h1>Edit Movie</h1>
+        <form id="edit-movie-form" method="post">
+          <div>
+            <label>Title: </label>
+            <input type="text" id="movieTitle" placeholder="Movie Title">
+          </div>
+          <div>
+            <label>Director: </label>
+            <input type="text" id="movieDirector" placeholder="Movie Director">
+          </div>
+          <div>
+            <label>Year: </label>
+            <input type="text" id="movieYear" placeholder="Year">
+          </div>
+          <div>
+            <label>Rating: </label>
+            <input type="text" id="movieRating" placeholder="1-10">
+          </div>
+          <div>
+            <label>Movie Poster URL</label>
+            <input type="text" id="movieURL" placeholder="Movie Poster">
+          </div>
+        </form>
+
+
+
+
+
+
+    </main>
+
+    </form>
+
   </body>
 </html>
