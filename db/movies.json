@@ -5,7 +5,7 @@
       "Director": "Roland Emmerich",
       "Year": "1996",
       "Rating": "6.9",
-      "URL": "http://www.imdb.com/title/tt0116629/mediaviewer/rm2203522816",
+      "URL": "http://www.impawards.com/1996/posters/independence_day_ver3.jpg",
       "id": 1
     },
     {
@@ -13,7 +13,7 @@
       "Director": "George Lucas",
       "Year": "1977",
       "Rating": "8.7",
-      "URL": "http://www.imdb.com/title/tt0076759/?ref_=nv_sr_1",
+      "URL": "http://www.impawards.com/1977/posters/star_wars.jpg",
       "id": 2
     },
     {
@@ -21,7 +21,7 @@
       "Director": "Zack Snyder",
       "Year": "2006",
       "Rating": "7.7",
-      "URL": "http://www.imdb.com/title/tt0416449/mediaviewer/rm1056741632",
+      "URL": "http://www.impawards.com/2007/posters/three_hundred.jpg",
       "id": 3
     },
     {
@@ -29,16 +29,40 @@
       "Director": "Mel Gibson",
       "Year": "1995",
       "Rating": "8.4",
-      "URL": "http://www.imdb.com/title/tt0112573/mediaviewer/rm2372799488",
+      "URL": "http://www.impawards.com/1995/posters/braveheart.jpg",
       "id": 4
     },
     {
-      "Title": "Saving Private Ryan",
-      "Director": "Steven Spielberg",
-      "Year": "1998",
-      "Rating": "8.6",
-      "URL": "http://www.imdb.com/title/tt0120815/mediaviewer/rm1924732160",
+      "Title": "Sicario",
+      "Director": "Denis Villeneuve",
+      "Year": "2015",
+      "Rating": "7.6",
+      "URL": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA5NjM3NTk1M15BMl5BanBnXkFtZTgwMzg1MzU2NjE@._V1_SY1000_CR0,0,666,1000_AL_.jpg",
       "id": 5
+    },
+    {
+      "Title": "Guardians of the Galaxy",
+      "Director": "James Gunn",
+      "Year": "2014",
+      "Rating": "8.1",
+      "URL": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_SY1000_CR0,0,674,1000_AL_.jpg",
+      "id": 6
+    },
+    {
+      "Title": "The Dark Knight",
+      "Director": "Christopher Nolan",
+      "Year": "2008",
+      "Rating": "9.0",
+      "URL": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+      "id": 7
+    },
+    {
+      "Title": "The Shawshank Redemption",
+      "Director": "Frank Darabont",
+      "Year": "1994",
+      "Rating": "9.3",
+      "URL": "https://images-na.ssl-images-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SY1000_CR0,0,672,1000_AL_.jpg",
+      "id": 8
     }
   ]
 }

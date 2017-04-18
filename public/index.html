@@ -2,27 +2,40 @@
 <html>
 <head>
   <title>Ryan's Movie Ratings</title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="main.js"></script>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-
+  <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/styles/stylesheet.css" type="text/css">
 </head>
 <body>
   <header>
-    <titles class="head_titles"></titles>
-      <h1 class= "main_title">Ryan's Movie Ratings</h1>
-      <h3 class="sub_title">See if your ratings are correct!</h3>
-    </titles>
+    <nav class="navbar navbar-inverse navHeader">
+      <div class="navTitle1">
+        <h1 class="navbar-text main_title">Ryan's Movie Ratings</h1>
+      </div>
+      <div class="navButton">
+        <a href="titles.html" class="btn btn-default toMovies">Go To Movies</a>
+      </div>
+    </nav>
+
   </header>
   <main>
-    <div class="btn_container">
-      <a href="titles.html">
-        <button>GO TO MOVIES</button>
-      </a>
-    </div>
+    <img class="mainPhoto" src="media/Movies.jpg" alt="Movie Projector"/>
   </main>
 
 
-
+  <nav class="navbar navbar-inverse navFooter">
+    <p class="navbar-text copyright">Copyright &copy 2017- All Rights Reserved- Ryan's Movie Ratings
+    </p>
+  </nav>
 
 
 </body>

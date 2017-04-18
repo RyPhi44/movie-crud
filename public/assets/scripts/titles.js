@@ -8,14 +8,14 @@ $(document).ready(function(){
       count++
       $('.movieTable').append(`
         <tr id=${count}>
-          <td>${result[i].Title}</td>
-          <td>${result[i].Director}</td>
-          <td>${result[i].Year}</td>
-          <td>${result[i].Rating}</td>
+          <td class="columnTitle"><a href='show.html?id=${count}'>${result[i].Title}</a></td>
+          <td class="columnDirector">${result[i].Director}</td>
+          <td class="columnYear">${result[i].Year}</td>
+          <td class="columnRating">${result[i].Rating}</td>
           <td>
-            <a href='edit.html?id=${count}'><button type="button" class="Edit">Edit</button></a>
+            <a href='edit.html?id=${count}' class="btn btn-default Edit">Edit</a>
           </td>
-          <td><button type="button" class="Delete">Delete</button></td>
+          <td><a href="#" class="btn btn-default Delete">Delete</a></td>
         </tr>`)
     }
   })
@@ -29,6 +29,7 @@ $(document).on('click', '.Delete', function(){
     type: 'delete',
     success: function(result){
       alert('Deleted!')
+      location.reload()
     }
   })
 })

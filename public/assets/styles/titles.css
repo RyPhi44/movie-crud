@@ -1,8 +1,8 @@
-/*    --------------------------------------------------
+    /*--------------------------------------------------
 	:: General
 	-------------------------------------------------- */
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Concert One', cursive;
 	color: #353535;
 }
 .content h1 {
@@ -18,6 +18,36 @@ body {
 	font-weight: bold;
 }
 
+.movieTable{
+  width: 1000px;
+  /*border: 1px solid black;*/
+  font-size: 26px;
+
+
+}
+
+.tableContainer{
+	height: 500px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navHeader{
+  display: flex;
+  justify-content: space-between;
+}
+
+h1{
+	padding-right: 900px;
+}
+.homeButton{
+	display: flex;
+	/*padding-left: 960px;*/
+	align-items: center;
+}
 /*	--------------------------------------------------
 	:: Table Filter
 	-------------------------------------------------- */
@@ -110,7 +140,7 @@ body {
 .table-filter .media-body {
     display: block;
     /* Had to use this style to force the div to expand (wasn't necessary with my bootstrap version 3.3.6) */
-}
+/*}
 .table-filter .media-meta {
 	font-size: 11px;
 	color: #999;

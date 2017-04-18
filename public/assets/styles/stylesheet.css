@@ -1,4 +1,44 @@
-.movieTable{
-  width: 700px;
-  border: 1px solid black;
+body {
+	font-family: 'Concert One', cursive;
+	color: #353535;
+}
+
+.navButton{
+display: flex;
+justify-content: center;
+float: right;
+}
+
+.navHeader{
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navFooter{
+  border-radius: 0;
+}
+
+.mainPhoto{
+  width: 1440px;
+  height: 660px;
+  margin-top: 0;
+}
+
+.copyright{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.toMovies{
+  color: black;
+	display: flex;
+}
+
+h1{
+	padding-right: 940px;
 }

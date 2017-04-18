@@ -53,15 +53,21 @@ router.get('/movies/:id', (req ,res) => {
 //
 // ^^^^^^^^^^Update Movie^^^^^^^^^^
 
-
-
-
-
-
-
-
-
-
+router.put('/movies/:id', (req,res) => {
+  console.log('hello');
+  const movieId = parseInt(req.params.id)
+  req.body.id = parseInt(req.body.id)
+  db.get('movies')
+  .find({id: movieId})
+  .assign(req.body)
+  .write()
+  .then(editedMovie => {
+      res.send(editedMovie)
+    })
+  .catch(err => {
+    console.log(err);
+  })
+})
 
 // ****************** DELETE ******************
 //

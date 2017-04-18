@@ -1,0 +1,59 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+h1{
+    padding-right: 960px;
+}
+
+.goToMovies{
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+body {
+	font-family: 'Concert One', cursive;
+	color: #353535;
+  /*min-height: calc(100vh - 123px);*/
+}
+
+img{
+  height: 500px;
+  width: 360px;
+}
+
+.moviePreview{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  height: 1000px;
+}
+
+.navTitleEdit{
+  padding-bottom: 10px;
+}
+
+.showPoster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.showInfo{
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+.navHeader{
+  display:flex;
+  justify-content: space-between;
+}
+
+/*.navFooter{
+  position: sticky;
+}*/

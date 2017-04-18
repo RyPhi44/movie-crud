@@ -13,8 +13,8 @@
 
       <!-- Latest compiled and minified JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-      <link rel="stylesheet" href="./assets/styles/titles.css" type="text/css">
-      <script src="./assets/scripts/titles.js"></script>
+      <link rel="stylesheet" href="./assets/styles/show.css" type="text/css">
+      <script src="./assets/scripts/show.js"></script>
       <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
   </head>
   <body>
@@ -23,29 +23,24 @@
         <div class="navTitle1">
           <h1 class="navbar-text main_title">Ryan's Movie Ratings</h1>
         </div>
-        <div class="homeButton">
-          <div class="addMovie">
-            <a href="add.html" class="btn btn-default addMovieButton">Add Movie</a>
-          </div>
-          <a href="index.html" class="btn btn-default backButton">Home</a>
+        <div class="goToMovies">
+          <a href="titles.html" class="btn btn-default goToMovies">Go To Movies</a>
         </div>
       </nav>
     </header>
-    <main>
-      <container class="tableContainer">
-        <table class= "movieTable">
-          <tr>
-            <th>Title</th>
-            <th>Director</th>
-            <th>Year</th>
-            <th>Rating</th>
-          </tr>
-        </table>
-      </container>
-    </main>
-    <nav class="navbar navbar-inverse navbar-fixed-bottom navFooter">
-      <p class="navbar-text copyright">Copyright &copy 2017- All Rights Reserved- Ryan's Movie Ratings
-      </p>
+    <div class = "allMovies">
+      <main class="showMain">
+        <div class="showPoster">
+          <div class="showInfo"></div>
+        </div>
+      </main>
+    </div>
+      <div class="wrapper" >
+        <nav class="navbar navbar-inverse navbar-fixed-bottom navFooter">
+          <p class="navbar-text copyright">Copyright &copy 2017- All Rights Reserved- Ryan's Movie Ratings
+          </p>
+        <div class="push"></div>
+      </div><div class="footer"></div>
     </nav>
   </body>
 </html>
